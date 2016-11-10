@@ -33,3 +33,56 @@ body {
 .robot-head-left {
   width: 125px;
 }
+
+/* ----- My CSS ----- */
+
+.banner {
+  padding-top: 3.5rem;
+}
+
+.robot {
+  margin: 0 auto;
+  position: relative;
+}
+
+.robot-body {
+  display: block;
+}
+
+.robot-brain {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 2rem;
+}
+
+.robot:hover .robot-brain {
+  top: -1rem;
+}
+
+.robot-head-right,
+.robot-head-left {
+  position: absolute;
+  top: -2.35rem;
+}
+
+.robot-head-right {
+  right: 2.22rem;
+}
+
+.robot-head-left {
+  left: 2.21rem;
+}
+
+.robot:hover .robot-head-right,
+.robot:hover .robot-head-left {
+  top: -3.0625rem;
+}
+
+.robot:hover .robot-head-right {
+  right: 0;
+}
+
+.robot:hover .robot-head-left {
+  left: 0;
+}
